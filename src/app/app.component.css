@@ -1,0 +1,54 @@
+#logo{
+ transition: all .3s ease;
+}
+
+#logo:active{
+    transform: translateY(5px);
+}
+
+#logo:hover{
+   transform: translateY(-1px); 
+   text-shadow: 1px 4px 10px rgba(255, 255, 255, 0.4);
+}
+
+.nav-pills>li>a{
+    transition: all ease .5s;
+}
+.nav-pills>li>a:hover{
+    transform: translateY(-2px);
+}
+
+#facebook, #twitter, #youtube{
+    font-size: 3em;
+    padding: 10px;
+}
+
+#facebook{
+    transition: all ease 1s;
+}
+
+#twitter{
+    transition: all ease 1s;
+}
+
+#youtube{
+    transition: all ease 1s;
+}
+
+#facebook:hover{
+ color: rgba(66, 103, 178, 0.8);
+ text-shadow: 1px 3px 10px rgba(255, 255, 255, 0.2);
+ transform: scale(1.5);
+}
+
+#twitter:hover{
+ color: rgba(29, 160, 242, 0.8);
+ text-shadow: 1px 3px 10px rgba(255, 255, 255, 0.2);
+ transform: scale(1.5);
+}
+
+#youtube:hover{
+    color: rgba(255, 0, 0, 0.8);
+ text-shadow: 1px 3px 10px rgba(255, 255, 255, 0.2);
+ transform: scale(1.5);
+}

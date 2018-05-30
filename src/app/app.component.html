@@ -1,0 +1,40 @@
+<header>
+  <nav class="navbar navbar-default">
+      <div class="container">
+          <div class="navbar-header"><a class="navbar-brand" routerLink="portfolio" id="logo"><em class="glyphicon glyphicon-king" ></em><span class="text-title">Karabo Maimane</span></a>
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+          <div
+              class="collapse navbar-collapse" id="navcol-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="active" role="presentation"><a href="#section1">What I do? </a></li>
+                  <li role="presentation"><a href="#section2">Contact Me </a></li>
+              </ul>
+      </div>
+      </div>
+  </nav>
+</header>
+<ul class="nav nav-pills categories">
+  <li><a routerLink="personal-info">Bio</a></li>
+  <li><a routerLink="education">Education</a></li>
+  <li><a routerLink="experience">Work Experience</a></li>
+  <li><a routerLink="portfolio">Portfolio Of Work</a></li>
+</ul>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div class="row">
+    <div class="col-md-6 col-sm-6">
+        <p class="follow text">You can contact me with the below details</p>
+        <p>Contact Number: 082 316 2480</p>
+        <i class="fab fa-facebook" id="facebook"></i>
+        <i class="fab fa-youtube-square" id="youtube"></i>
+        <i class="fab fa-twitter-square" id="twitter"></i>
+    </div>
+    <div class="col-md-6 col-sm-6">
+        <small>Karabo Maimane Portfolio Page 2018</small><br>
+        <small>This website was designed and created by Karabo Maimane on 24 May 2018 for Codetribe</small>
+    </div>  
+  </div>
+
+</footer>

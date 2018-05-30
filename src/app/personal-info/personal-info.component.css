@@ -1,0 +1,60 @@
+#headContent1{
+    animation: slideInLeft 1s;
+    backface-visibility: hidden;
+}
+
+#headContent2{
+    animation: slideInRight 1s;
+    backface-visibility: hidden;
+}
+
+@keyframes slideInLeft{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    80%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.list-text{
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.personalInfo{
+    font-size: 1.2em;
+}
+
+.personalInfo .boldText{
+    font-weight: bold;
+}
+
+#proImage{
+    transition: all .2s ease;
+}
+
+#proImage:hover{
+    transform: translateY(2px);
+    filter: grayscale(60%);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
